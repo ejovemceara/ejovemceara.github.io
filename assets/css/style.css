@@ -1,0 +1,48 @@
+.font-advent {
+font-family: 'advent';
+src: url('assets/fonts/advent.otf');
+font-weight: normal;
+font-style: normal;
+}
+.font-fontastique {
+font-family: 'fontastique';
+src: url('assets/fonts/fontastique.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+.titulo-section{
+}
+
+.sub-titulo-section{
+  margin-top: -5px;
+  color: #666666;
+}
+
+.card{
+  padding: 20px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.card > span{
+  font-size: 60pt;
+}
+
+.card p {
+  margin-top: 30px;
+  font-size: 16pt;
+}
+
+.card-blue{
+  background-color: #37abc8;
+}
+.card-green{
+  background-color: #10ca6a;
+}
+.card-orange{
+  background-color: #ff7542;
+}
