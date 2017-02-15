@@ -15,8 +15,8 @@
 
   <body class="container">
     <header class="row">
-      <div class="col-lg-12">
-        <nav class="navbar navbar-inverse">
+      <div class="col-lg-10">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,9 +34,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">INICIO</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">EQUIPE</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#equipe">EQUIPE</a></li>
+                <li><a href="#contato">CONTATO</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">ENTRAR</a></li>
               </ul>
@@ -46,6 +46,7 @@
       </div><!-- col-lg-12 -->
     </header>
 
+    <br><br><br>
     <section class="row">
       <div class="col-lg-12">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -109,8 +110,9 @@
       </div><!-- col-lg-4 -->
     </div><!-- row -->
 
+    <div id="sobre"></div>
     <br><br><br>
-    <h1 class="font-fontastique text-center">
+    <h1 class="titulo-section font-fontastique text-center">
       SOBRE O PROJETO
     </h1>
     <h2 class="font-advent text-center sub-titulo-section">
@@ -151,8 +153,9 @@
     </div><!-- row -->
 
 
+    <div id="equipe"></div>
     <br><br><br>
-    <h1 class="font-fontastique text-center">
+    <h1 class="titulo-section font-fontastique text-center">
       EQUIPE
     </h1>
     <h2 class="font-advent text-center sub-titulo-section">
@@ -188,6 +191,56 @@
           <p>TUTORIA</p>
         </div><!-- card -->
       </div><!-- col-lg-3 -->
+    </div><!-- row -->
+
+
+    <div id="contato"></div>
+    <br><br><br>
+    <h1 class="titulo-section font-fontastique text-center">
+      ENTRE EM CONTATO
+    </h1>
+    <h2 class="font-advent text-center sub-titulo-section">
+      Ficaremos felizes em tirar suas dúvidas
+    </h2>
+  <br>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form action="#">
+              <legend>Preencha o formulário</legend>
+              <input placeholder="SEU NOME" class="input-lg form-control">
+              <br>
+              <input placeholder="SEU EMAIL" class="input-lg form-control">
+              <br>
+              <input placeholder="O ASSUNTO" class="input-lg form-control">
+              <br>
+              <textarea placeholder="SUA MENSAGEM" class="input-lg form-control"></textarea>
+              <br>
+
+              <button class="btn btn-success btn-lg btn-block">ENVIAR</button>
+            </form>
+          </div><!-- panel-body -->
+        </div><!-- panel -->
+      </div><!-- col-lg-6 -->
+
+      <div class="col-lg-6">
+        <div class="jumbotron text-center">
+          <img src="assets/img/projetoejovem.png" width="90%" alt="Projeto e-Jovem" title="Projeto e-Jovem">
+
+          <br><br><br>
+          <p class="font-advent" style="font-size: 16pt;">
+            <strong>SITE: </strong>www.projetoejovem.com.br<br>
+            <strong>EMAIL: </strong>faleconosco@projetoejovem.com.br<br>
+            <strong>TELEFONE: </strong>(85) 3101-3828 / 3101-2693<br><br>
+          </p>
+          <p class="font-advent" style="font-size: 12pt;">
+            Centro Administrativo Governador Virgílio Távora (Av. General Afonso Albuquerque Lima, S/N)
+ 2º andar - Bloco C – Cambeba Fortaleza/Ceará - CEP 60839-900
+          </p>
+          <br>
+        </div>
+      </div> <!-- col-lg-6 -->
     </div><!-- row -->
 
     <script src="assets/js/jquery.js"></script>
