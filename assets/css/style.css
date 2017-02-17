@@ -17,6 +17,15 @@ font-style: normal;
   color: #666666;
 }
 
+.footer{
+  background-color: #333;
+  padding:10px;
+  color: #fff;
+}
+.footer span{
+  font-size: 12pt;
+}
+
 .card{
   padding: 20px;
   color: #fff;
